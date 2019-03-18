@@ -1,0 +1,18 @@
+{
+	"fName": "satya",
+	"id": 1,
+	"addresses":[
+		{
+			"id": 1,
+			"city": "Mumbai",
+			"pinCode": "400703"
+		},
+		{
+			"id": 2,
+			"city": "Delhi",
+			"pinCode": "507834"
+		}
+	],
+	"contact": "9179417773",
+	"email": "some@some.com"
+}
