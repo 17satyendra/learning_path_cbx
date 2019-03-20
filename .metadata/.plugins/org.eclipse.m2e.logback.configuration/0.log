@@ -932,3 +932,4 @@ java.lang.IllegalStateException: already in a rewrite session
 2019-03-19 18:08:12,100 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-03-19 18:08:12,101 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-19 18:08:12,101 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\projects\Learning_path\rabbit-sample\rabbitmq-topic-exchange-producer\src\test\resources
+2019-03-20 10:00:00,297 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
