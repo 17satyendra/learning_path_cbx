@@ -1,0 +1,9 @@
+package com.filetransfer.demo;
+
+public class FileTransferDemo 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

@@ -1,0 +1,20 @@
+package com.poc.rabbitMQ;
+
+import org.apache.camel.builder.RouteBuilder;
+
+public class RabbitMQCamelRoute extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+		from("timer:hello?period=1000")
+
+				.transform(simple("Random number ${random(0,100)}"))
+
+				.to("rabbitmq:myqueue");
+
+		from("rabbitmq:myqueue")
+
+				.log("From RabbitMQ: ${body}");
+	}
+
+}

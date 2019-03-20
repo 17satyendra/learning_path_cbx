@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552973267655_1" label="learning_path" name="learning_path">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/camel_rabbitMQ" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rabbit-consumer" type="4"/>
+<item elementID="=rabbit-sample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rabbit-direct-producer" type="4"/>
+<item elementID="=Json_binding_sample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=elastic-sample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=rabbit-basics" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/camel-sample" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/camel_file_transfer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rabbitmq-topic-exchange-consumer" type="4"/>
+<item elementID="=maven_sample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/rabbitmq-topic-exchange-producer" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552909329572_0" label="Window Working Set" name="Aggregate for window 1552909329572"/>
+<mruList name="learning_path"/>
 </workingSetManager>

@@ -1,0 +1,22 @@
+package com.poc.rabbitMQ;
+
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RabbitMQCamelRoute extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+		from("timer:hello?period=1000")
+
+				.transform(simple("Random number ${random(0,100)}"))
+
+				.to("rabbitmq://localhost/sales_data_exchange?routingKey=customer.order");
+
+		from("rabbitmq:orders_queue")
+
+				.log("From RabbitMQ: ${body}");
+	}
+
+}

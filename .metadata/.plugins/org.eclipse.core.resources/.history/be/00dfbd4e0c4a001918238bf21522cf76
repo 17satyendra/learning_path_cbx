@@ -1,0 +1,9 @@
+package com.filetransfer.demo;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.RoutesBuilder;
+
+public class SimpleRouteBuilder extends RoutesBuilder {
+
+	
+}

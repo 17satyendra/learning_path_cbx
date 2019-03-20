@@ -1,0 +1,14 @@
+package com.filetransfer.demo;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.RoutesBuilder;
+
+public class SimpleRouteBuilder implements RoutesBuilder {
+
+	@Override
+	public void addRoutesToCamelContext(CamelContext context) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}

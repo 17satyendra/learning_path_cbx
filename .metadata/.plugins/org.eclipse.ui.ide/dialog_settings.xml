@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\projects\Learning_path\rabbit-sample"/>
+		<item value="D:\projects\Learning_path\maven_sample"/>
+		<item value="D:\projects\Learning_path\Json_binding_sample"/>
+		<item value="D:\projects\Learning_path\elastic-sample"/>
+		<item value="D:\projects\Learning_path\camel-sample"/>
+	</list>
+</section>
